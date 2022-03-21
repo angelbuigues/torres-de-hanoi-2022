@@ -8,11 +8,15 @@ namespace Torres_de_Hanoi
 {
     class Disco
     {
-        /*TODO: 
-        Decidir tipo de Valor
-        public int Valor { get; set; }
-        public String Valor { get; set; }
-        */
 
-    }
+        //declaramos el disco
+        public int Valor { get; set; }
+
+        //iniciamos el valor del disco
+        public Disco(int valor)
+        {
+            Valor = valor;
+        }
+
+    }//fin clase disco
 }
